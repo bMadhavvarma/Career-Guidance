@@ -1,0 +1,202 @@
+
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+ .navbar{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    
+ }
+  #navItem1 {
+    transition: all ease 0.25s;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 80px;
+    color: black;
+    text-align: center;
+
+  }
+  .navbar-nav {
+    margin-left: auto; 
+}
+
+.nav-item {
+    display: inline-block; 
+    position: relative; 
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000; 
+}
+  #navItem5:hover{
+    background-color:chocolate;
+    width: 170px;
+    color:white;    
+    font-weight: bolder;
+  }
+  #navItem1:hover{
+    background-color:rgb(230, 105, 105);
+    width: 170px;
+    color:white;    
+    font-weight: bolder;
+  }
+  #navbarDropdownMenuLink:hover{
+    background-color:rgb(232, 152, 202);
+    width: 170px;
+    color:white;
+    font-weight: bolder;
+  }
+  #navItem3:hover{
+    background-color:rgb(131, 196, 234);
+    width: 170px;
+    color:white;
+    font-weight: bolder;
+  }
+  #navItem4:hover{
+    background-color:rgb(236, 182, 56);
+    width: 170px;
+    color:white;
+    font-weight: bolder;
+  }
+ 
+  #navbarDropdownMenuLink {
+    transition: all ease 0.5s;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 100px;
+    color: black;
+    text-align: center;
+
+  }
+  #navItem3 {
+    color: black;
+    transition: all ease 0.5s;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+
+  }
+  #navItem4 {
+    transition: all ease 0.5s;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    color: black;
+  }
+  #navItem5 {
+    transition: all ease 0.5s;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    color: black;
+  }
+  .bg-conatiner{
+    background-image: url("https://www.shutterstock.com/image-vector/young-male-female-characters-trying-600nw-2023935812.jpg");
+    background-size: cover;
+    height:100vh;
+  }
+  .Get-Button{
+    color:rgb(150, 12, 231);
+    font-weight: 600; 
+    background-color: black;
+    width: 190px;
+    height: 40px;
+    border-color:rgb(150, 12, 231); 
+    border-radius: 30px;
+    border-style:double;
+    border-width: 4px;
+    transition: all ease 0.3s;
+  }
+  .Get-Button:hover{
+    color: white;
+    background-color:rgb(150, 12, 231) ;
+    border-color:white; 
+    border-style:double;
+    border-width: 4px;
+  }
+ 
+  .text{
+    font-family:"roboto";
+    font-size:60px;
+  }
+ .text-paragraph{
+    font-family:"roboto";
+    font-size:30px;
+    font-weight: bold;
+  }
+  .main-heading{
+    font-weight: bold;
+    padding: 50px 0px 30px 50px;
+    margin-bottom: 5px;
+    font-size: 3.5rem;
+
+  }
+  .main-text{
+    padding-left:12px;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  .main-heading span::after {
+    content: '';
+    width: 0px;
+    animation-timing-function: all ease-in-out;
+  
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+    animation-duration: 0.65s;
+    animation-name: colour;
+    height: 3px;
+    display: block;
+    background: orange;
+    
+  }
+  @keyframes colour {
+    from{
+        color:"";
+        
+    }
+    to{
+        color: rgb(255, 119, 0);
+        width: 10rem;
+
+    }
+}
+.image1{
+  height: 18rem;
+  width: 18rem;
+  margin-bottom: 12%;
+  border-radius: 50%;
+  margin-left: 6rem;
+  animation-name: rotating;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image2{
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  animation-name: rotating;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}

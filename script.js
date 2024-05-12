@@ -6,6 +6,13 @@ let mainText=document.querySelector(".main-text");
 let spanText=document.querySelector(".span-text");
 let image1=document.querySelector(".image1");
 let image2=document.querySelector(".image2");
+let missionImage=document.querySelector(".mission-image");
+let cardText=document.querySelector(".card-text");
+let missiondescriptionText=document.querySelector(".mission-description-text");
+let watchButton=document.querySelector(".watcg-button");
+let visionHeading=document.querySelector(".vision-section-heading");
+let visionImage=document.querySelector(".vision-section-description");
+let visionText=document.querySelector(".vision-image");
 
 const sr = ScrollReveal({
   origin: "top",
@@ -20,5 +27,13 @@ sr.reveal(image2,{ interval: 200 });
 sr.reveal(mainHeading);
 sr.reveal(buttonGet,{ interval:200});
 sr.reveal(textPara, { delay: 200 });
-
+sr.reveal(missionImage, { delay: 200 });
+sr.reveal(cardText, { delay: 300 });
+sr.reveal(missiondescriptionText, { delay: 400 });
+sr.reveal(watchButton, { delay: 600 });
 sr.reveal(text);
+sr.reveal(visionHeading, { delay: 200 });
+sr.reveal(visionImage, { delay: 400 });
+sr.reveal(visionText);
+
+

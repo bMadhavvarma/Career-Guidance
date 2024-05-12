@@ -195,8 +195,71 @@
   width: 17rem;
   border-radius: 50%;
   animation-name: rotating;
+  
   animation-duration: 11s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
 }
+.mission-image{
+  width: 85%;
+ padding: 15px;
+ border-radius: 20%;
+ box-shadow: 10px 10px 10px silver;
+}
+.card-text{
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.mission-description-text{
+  padding: 10px;
+  font-size: 20px;
+
+}
+.watch-button{
+  border-style:double;
+ 
+  border-color: orange !important;
+  color:orange;
+  background-color: black;
+
+  border-radius: 10px;
+  height:35px;
+  width: 130px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 13px;
+  border-width: 3px;
+  transition: all ease 0.75s;
+  
+}
+.watch-button:hover{
+  font-weight: 500;
+  color:white;
+  border-color: white;
+  background-color: orange;
+}
+.vision-image{
+  width: 80%;
+  margin-top: 26px;
+  border-radius: 20%;
+  box-shadow: 15px 15px 15px silver; 
+  border-width: 13px;
+  border-color: aliceblue; 
+  border-style: double;
+ 
+}
+.vision-section-heading{
+  margin-top:10px;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+.vision-section-description{
+
+  font-size: 20px;
+}
+
+

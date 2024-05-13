@@ -1,175 +1,166 @@
-
 .logo {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-  }
- .navbar{
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    
- }
-  #navItem1 {
-    transition: all ease 0.25s;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 20px;
-    width: 80px;
-    color: black;
-    text-align: center;
-
-  }
-  .navbar-nav {
-    margin-left: auto; 
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.navbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+#navItem1 {
+  transition: all ease 0.25s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 80px;
+  color: black;
+  text-align: center;
+}
+.navbar-nav {
+  margin-left: auto;
 }
 
 .nav-item {
-    display: inline-block; 
-    position: relative; 
+  display: inline-block;
+  position: relative;
 }
 
 .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
 }
-  #navItem5:hover{
-    background-color:chocolate;
-    width: 170px;
-    color:white;    
-    font-weight: bolder;
-  }
-  #navItem1:hover{
-    background-color:rgb(230, 105, 105);
-    width: 170px;
-    color:white;    
-    font-weight: bolder;
-  }
-  #navbarDropdownMenuLink:hover{
-    background-color:rgb(232, 152, 202);
-    width: 170px;
-    color:white;
-    font-weight: bolder;
-  }
-  #navItem3:hover{
-    background-color:rgb(131, 196, 234);
-    width: 170px;
-    color:white;
-    font-weight: bolder;
-  }
-  #navItem4:hover{
-    background-color:rgb(236, 182, 56);
-    width: 170px;
-    color:white;
-    font-weight: bolder;
-  }
- 
-  #navbarDropdownMenuLink {
-    transition: all ease 0.5s;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 20px;
-    width: 100px;
-    color: black;
-    text-align: center;
-
-  }
-  #navItem3 {
-    color: black;
-    transition: all ease 0.5s;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-
-  }
-  #navItem4 {
-    transition: all ease 0.5s;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-    color: black;
-  }
-  #navItem5 {
-    transition: all ease 0.5s;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-    color: black;
-  }
-  .bg-conatiner{
-    background-image: url("https://www.shutterstock.com/image-vector/young-male-female-characters-trying-600nw-2023935812.jpg");
-    background-size: cover;
-    height:100vh;
-  }
-  .Get-Button{
-    color:rgb(150, 12, 231);
-    font-weight: 600; 
-    background-color: black;
-    width: 190px;
-    height: 40px;
-    border-color:rgb(150, 12, 231); 
-    border-radius: 30px;
-    border-style:double;
-    border-width: 4px;
-    transition: all ease 0.3s;
-  }
-  .Get-Button:hover{
-    color: white;
-    background-color:rgb(150, 12, 231) ;
-    border-color:white; 
-    border-style:double;
-    border-width: 4px;
-  }
- 
-  .text{
-    font-family:"roboto";
-    font-size:60px;
-  }
- .text-paragraph{
-    font-family:"roboto";
-    font-size:30px;
-    font-weight: bold;
-  }
-  .main-heading{
-    font-weight: bold;
-    padding: 50px 0px 30px 50px;
-    margin-bottom: 5px;
-    font-size: 3.5rem;
-
-  }
-  .main-text{
-    padding-left:12px;
-    font-size: 20px;
-    padding-left: 50px;
-  }
-  .main-heading span::after {
-    content: '';
-    width: 0px;
-    animation-timing-function: all ease-in-out;
-  
-     animation-iteration-count: infinite;
-     animation-direction: alternate;
-    animation-duration: 0.65s;
-    animation-name: colour;
-    height: 3px;
-    display: block;
-    background: orange;
-    
-  }
-  @keyframes colour {
-    from{
-        color:"";
-        
-    }
-    to{
-        color: rgb(255, 119, 0);
-        width: 10rem;
-
-    }
+#navItem5:hover {
+  background-color: chocolate;
+  width: 170px;
+  color: white;
+  font-weight: bolder;
 }
-.image1{
+#navItem1:hover {
+  background-color: rgb(230, 105, 105);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navbarDropdownMenuLink:hover {
+  background-color: rgb(232, 152, 202);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navItem3:hover {
+  background-color: rgb(131, 196, 234);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navItem4:hover {
+  background-color: rgb(236, 182, 56);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+
+#navbarDropdownMenuLink {
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  color: black;
+  text-align: center;
+}
+#navItem3 {
+  color: black;
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+}
+#navItem4 {
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
+#navItem5 {
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
+.bg-conatiner {
+  background-image: url("https://www.shutterstock.com/image-vector/young-male-female-characters-trying-600nw-2023935812.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.Get-Button {
+  color: rgb(150, 12, 231);
+  font-weight: 600;
+  background-color: black;
+  width: 190px;
+  height: 40px;
+  border-color: rgb(150, 12, 231);
+  border-radius: 30px;
+  border-style: double;
+  border-width: 4px;
+  transition: all ease 0.3s;
+}
+.Get-Button:hover {
+  color: white;
+  background-color: rgb(150, 12, 231);
+  border-color: white;
+  border-style: double;
+  border-width: 4px;
+}
+
+.text {
+  font-family: "roboto";
+  font-size: 60px;
+}
+.text-paragraph {
+  font-family: "roboto";
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-heading {
+  font-weight: bold;
+  padding: 50px 0px 30px 50px;
+  margin-bottom: 5px;
+  font-size: 3.5rem;
+}
+.main-text {
+  padding-left: 12px;
+  font-size: 20px;
+  padding-left: 50px;
+}
+.main-heading span::after {
+  content: "";
+  width: 0px;
+  animation-timing-function: all ease-in-out;
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 0.65s;
+  animation-name: colour;
+  height: 3px;
+  display: block;
+  background: orange;
+}
+@keyframes colour {
+  from {
+    color: "";
+  }
+  to {
+    color: rgb(255, 119, 0);
+    width: 10rem;
+  }
+}
+.image1 {
   height: 18rem;
   width: 18rem;
   margin-bottom: 12%;
@@ -190,42 +181,41 @@
   }
 }
 
-.image2{
+.image2 {
   height: 17rem;
   width: 17rem;
   border-radius: 50%;
   animation-name: rotating;
-  
+
   animation-duration: 11s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
 }
-.mission-image{
+.mission-image {
   width: 85%;
- padding: 15px;
- border-radius: 20%;
- box-shadow: 10px 10px 10px silver;
+  padding: 15px;
+  border-radius: 20%;
+  box-shadow: 10px 10px 10px silver;
 }
-.card-text{
+.card-text {
   padding: 10px;
   font-size: 30px;
   font-weight: bold;
 }
-.mission-description-text{
+.mission-description-text {
   padding: 10px;
   font-size: 20px;
-
 }
-.watch-button{
-  border-style:double;
- 
+.watch-button {
+  border-style: double;
+
   border-color: orange !important;
-  color:orange;
+  color: orange;
   background-color: black;
 
   border-radius: 10px;
-  height:35px;
+  height: 35px;
   width: 130px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -233,33 +223,91 @@
   font-size: 13px;
   border-width: 3px;
   transition: all ease 0.75s;
-  
 }
-.watch-button:hover{
+.watch-button:hover {
   font-weight: 500;
-  color:white;
+  color: white;
   border-color: white;
   background-color: orange;
 }
-.vision-image{
+.vision-image {
   width: 80%;
   margin-top: 26px;
   border-radius: 20%;
-  box-shadow: 15px 15px 15px silver; 
+  box-shadow: 15px 15px 15px silver;
   border-width: 13px;
-  border-color: aliceblue; 
+  border-color: aliceblue;
   border-style: double;
- 
 }
-.vision-section-heading{
-  margin-top:10px;
+.vision-section-heading {
+  margin-top: 10px;
 
   font-size: 30px;
   font-weight: bold;
 }
-.vision-section-description{
-
+.vision-section-description {
   font-size: 20px;
 }
-
-
+.team-heading {
+  font-size: 36px !important;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+.team-section-description {
+  font-size: 20px;
+}
+.team{
+  overflow: hidden;
+  padding: 60px 0;
+  background-color: white;
+  white-space: nowrap;
+}
+@keyframes slide {
+  
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+.team-slide{
+  display: inline-block;
+  animation: 10s slide infinite linear;
+}
+.team-member{
+  display: inline-block;
+}
+.team:before,
+.team:after{
+position: absolute;
+top: 0;
+width:100%;
+height: 100%;
+content: "";
+z-index: 3;
+}
+.team:before{
+  left: 0;
+  background-color: linear-gradient(to left,rgba(255,255,255,0));
+}
+.team:after{
+  right: 0;
+  background-color: linear-gradient(to right,rgba(255,255,255,0));
+}
+.memberimage{
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  margin: 0 40px;
+}
+.membername {
+  margin-top: 10px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 550;
+  color:indigo;
+}
+.membername span{
+  color:dodgerblue;
+}

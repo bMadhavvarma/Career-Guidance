@@ -13,6 +13,9 @@ let watchButton=document.querySelector(".watcg-button");
 let visionHeading=document.querySelector(".vision-section-heading");
 let visionImage=document.querySelector(".vision-section-description");
 let visionText=document.querySelector(".vision-image");
+let teamHeading=document.querySelector(".team-heading");
+let teamText=document.querySelector(".team-section-description");
+let team=document.querySelector(".team")
 
 const sr = ScrollReveal({
   origin: "top",
@@ -35,5 +38,9 @@ sr.reveal(text);
 sr.reveal(visionHeading, { delay: 200 });
 sr.reveal(visionImage, { delay: 400 });
 sr.reveal(visionText);
-
+sr.reveal(teamHeading, { delay: 200 });
+sr.reveal(teamText, { delay: 200 });
+sr.reveal(team);
+var copy=document.querySelector(".team-slide").cloneNode(true);
+document.querySelector(".team").appendChild(copy);
 

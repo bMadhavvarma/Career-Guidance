@@ -168,6 +168,10 @@
   margin-left: 6rem;
   animation-name: rotating;
   animation-duration: 11s;
+  box-shadow: 15px 15px 15px silver;
+  border-width: 13px;
+  border-color: aliceblue;
+  border-style: double;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
@@ -186,7 +190,10 @@
   width: 17rem;
   border-radius: 50%;
   animation-name: rotating;
-
+  box-shadow: 15px 15px 15px silver;
+  border-width: 13px;
+  border-color: aliceblue;
+  border-style: double;
   animation-duration: 11s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -302,7 +309,6 @@ z-index: 3;
   margin: 0 40px;
 }
 .membername {
-  margin-top: 10px;
   font-size: larger;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 550;
@@ -310,4 +316,23 @@ z-index: 3;
 }
 .membername span{
   color:dodgerblue;
+}
+.image3 {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  margin-left: 6rem;
+  box-shadow: 15px 15px 15px silver;
+  border-width: 13px;
+  border-color: aliceblue;
+  border-style: double;
+}
+.image4 {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+  box-shadow: 15px 15px 15px silver;
+  border-width: 13px;
+  border-color: aliceblue;
+  border-style: double;
 }

@@ -336,3 +336,9 @@ z-index: 3;
   border-color: aliceblue;
   border-style: double;
 }
+.contact-section-heading{
+  margin-top: 10px;
+
+  font-size: 40px;
+  font-weight: bold;
+}

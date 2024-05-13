@@ -15,14 +15,21 @@ let visionImage=document.querySelector(".vision-section-description");
 let visionText=document.querySelector(".vision-image");
 let teamHeading=document.querySelector(".team-heading");
 let teamText=document.querySelector(".team-section-description");
-let team=document.querySelector(".team")
-
+let team=document.querySelector(".team");
+let soFar1=document.querySelector(".soFar1");
+let soFar2=document.querySelector(".soFar2");
+let soFar3=document.querySelector(".soFar3");
+let soFar4=document.querySelector(".soFar4");
 const sr = ScrollReveal({
   origin: "top",
   distance: "70px",
   duration: 2000,
   reset: true,
 });
+sr.reveal(soFar1,{ delay: 200 });
+sr.reveal(soFar2,{ delay: 200 });
+sr.reveal(soFar3,{ delay: 200 });
+sr.reveal(soFar4,{ delay: 200 });
 sr.reveal(mainText,{ delay: 200 });
 sr.reveal(spanText,{ delay: 200 });
 sr.reveal(image1,{ delay: 800 });

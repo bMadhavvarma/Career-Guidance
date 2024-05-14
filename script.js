@@ -20,12 +20,16 @@ let soFar1=document.querySelector(".soFar1");
 let soFar2=document.querySelector(".soFar2");
 let soFar3=document.querySelector(".soFar3");
 let soFar4=document.querySelector(".soFar4");
+let contactSection=document.querySelector(".contact-section");
+let contactPage=document.querySelector(".contact-page");
 const sr = ScrollReveal({
   origin: "top",
   distance: "70px",
   duration: 2000,
   reset: true,
 });
+sr.reveal(contactPage,{ delay: 200 });
+sr.reveal(contactSection,{ delay: 300 });
 sr.reveal(soFar1,{ delay: 200 });
 sr.reveal(soFar2,{ delay: 200 });
 sr.reveal(soFar3,{ delay: 200 });

@@ -338,7 +338,41 @@ z-index: 3;
 }
 .contact-section-heading{
   margin-top: 10px;
-
+  
   font-size: 40px;
   font-weight: bold;
+}
+.contact-heading{
+  font-size: large;
+  background-color: blue;
+  color: white;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style:italic;
+  border-radius: 0px;
+  padding-top: 4px;
+  font-weight: 550;
+}
+.contact-block{
+  gap: 20px;
+}
+.contact-inputs{
+  height: 40px;
+  color:black;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+  height: 90px !important;
+}
+.submit-button{
+  color: white;
+  background-color: black;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+textarea::placeholder{
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 5px;
 }
